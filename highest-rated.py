@@ -68,8 +68,8 @@ def test_returns_none_from_empty_list():
 
 # Solution:
 restaurants = [{"name": "Grillby's", "rating": 1}, {"name": "Crow's Nest", "rating": 5}]
-restaurants = [{"name": "Crow's Nest", "rating": 1}]
-restaurants = []
+# restaurants = [{"name": "Crow's Nest", "rating": 1}]
+# restaurants = []
 
 def get_highest_rated(restaurants):
   if not restaurants:
@@ -82,3 +82,6 @@ def get_highest_rated(restaurants):
   return restaurant
 
 print(get_highest_rated(restaurants))
+
+# Time Complexity: Linear - O(n)
+# Space Complexity: Constant - O(1)
